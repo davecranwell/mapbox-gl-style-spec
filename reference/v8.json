@@ -201,6 +201,10 @@
     "clusterMaxZoom": {
       "type": "number",
       "doc": "Max zoom on which to cluster points if clustering is enabled. Defaults to one zoom less than maxzoom (so that last zoom features are not clustered)."
+    },
+    "clusterMetric": {
+      "type": "string",
+      "doc": "Property of point on which to calculate cluster total. Useful when points already represent an aggregated value."
     }
   },
   "source_video": {
